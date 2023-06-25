@@ -1,0 +1,66 @@
+
+
+.desktop-footer {
+  background: #7A86B8;
+  color: #fff;
+  margin-top: -1rem;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.copy-right {
+  text-align: center;
+  padding: .5rem 0 1.5rem 0;
+  font-size: 14px;
+}
+
+::ng-deep .p-dialog .p-dialog-header {
+  border-bottom: 0 none;
+  height: 40px;
+  line-height: 40px;
+  background-color: #4a4d4e;
+  color: #FFFFFF;
+  padding: 1.5rem;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+::ng-deep .p-dialog .p-dialog-content {
+  color: #ffffff;
+  color: #495057;
+  padding: 24px
+}
+::ng-deep .p-dialog .p-dialog-content p{
+  margin: 0 0 8.5px;
+  font-size: 12px;
+}
+::ng-deep .p-dialog .p-dialog-footer {
+  border-top: 0 none;
+  color: #ffffff;
+  color: #495057;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  text-align: start;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+::ng-deep .p-button.p-button-text {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+::ng-deep .p-dialog .p-dialog-footer button {
+  margin: 0 0.5rem 0 0;
+  width: auto;
+  background-color: #cccccc;
+}
+.footer {
+  margin-top: 25px;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+
+}
+
+

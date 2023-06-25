@@ -1,0 +1,11 @@
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    gap: 30px;
+}
+ul li a{
+    text-decoration: none;
+    color: #111;
+}

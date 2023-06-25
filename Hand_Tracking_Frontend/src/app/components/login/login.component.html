@@ -1,0 +1,40 @@
+<div class="wrap">
+  <img src="assets/images/MyBusiness.jpg" style="width: 100%; height:100%" />
+<div class="login-form">
+  <form  #action="ngForm" novalidate>
+    <div style="margin-top:-22%">
+    <h4 class="modal-title">Registration</h4>
+    </div>
+    <div class="form-group">
+      <input style="margin-left:-15%" class="no-outline" name="companyName" type="text" class="form-control" placeholder="Company Name" ngModel   #companyName="ngModel"   required="required">
+    </div>
+    <div class="form-group">
+      <input style="margin-left:-15%" name="addrees" type="text" class="form-control" placeholder="Address"  ngModel   #addrees="ngModel"  required="required">
+    </div>
+
+    <div class="form-group">
+      <input style="margin-left:-15%" name="contact" type="text" class="form-control" placeholder="Contact"  ngModel   #contact="ngModel"  required="required">
+    </div>
+    <div class="form-group">
+      <input style="margin-left:-15%" name="email" type="text" class="form-control" placeholder="Email"  ngModel   #email="ngModel"  required="required">
+    </div>
+    <div class="form-group">
+      <input style="margin-left:-15%" name="phone" type="text" class="form-control" placeholder="Phone"  ngModel   #phone="ngModel"  required="required">
+    </div>
+    <div class="form-group">
+      <input style="margin-left:-15%" name="position" type="text" class="form-control" placeholder="Position"  ngModel   #position="ngModel"  required="required">
+    </div>
+    <div class="form-group">
+      <input style="margin-left:-15%" name="iqama" type="text" class="form-control" placeholder="iqama"  ngModel   #iqama="ngModel"  required="required">
+    </div>
+    <div class="form-group">
+      <input [hidden]="true" style="margin-left:-15%" name="source" type="text" class="form-control" placeholder="Source"  ngModel   #source="ngModel"  required="required">
+    </div>
+    <div class="form-group small clearfix">
+      <label class="checkbox-inline"><input  name="Rememberme" type="checkbox" ngModel   #Rememberme="ngModel" > I agree with Terms and Privacy Policy.</label>
+    </div>
+    <input [disabled]="!action.form.value.Rememberme" type="submit" class="btn btn-primary btn-block btn-lg" value="Register" (click)="login(action) ">
+  </form>
+</div>
+</div>
+

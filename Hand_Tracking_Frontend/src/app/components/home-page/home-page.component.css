@@ -1,0 +1,284 @@
+::ng-deep .p-menubar .p-submenu-list{
+  font-family: "VodafoneRg_Regular", Arial, sans-serif;
+  font-size: 12px;
+  background-color: rgba(255, 255,255, 0.9);
+  z-index: 70;
+}
+::ng-deep .p-menubar .p-menuitem.p-menuitem-active > .p-menuitem-link .p-menuitem-text {
+  text-decoration: none;
+  color: #E2E4EF;
+  background-color: #fff;
+}
+:host ::ng-deep .p-treetable{
+  font-size: 11px;
+}
+:host ::ng-deep .btn-default {
+  border-radius:0px ;
+  border-color: #cbcbcb;
+  border: 0px;
+  cursor:pointer;
+  background: #ccc;
+  color: #333;
+}
+.btn-default:hover {
+  border-color: #cbcbcb;
+  border: 0px;
+  cursor:pointer;
+  color: #fff;
+  background: #333333;
+}
+.btn {
+  cursor:pointer;
+  font-size: 13px;
+  padding: 6px 8px;
+  color: #333;
+}
+:host ::ng-deep .p-datatable table {
+  font-size: 12px;
+}
+
+.btn-primary {
+  border-radius: 0px;
+  color: #ffffff;
+  background-color: #e60000;
+  border-color: #cd0000;
+}
+.btn-primary:hover {
+  border-color: #cbcbcb;
+  border: 0px;
+  color: #fff;
+  background: #333333;
+}
+.body{
+  background-color: #333;
+
+}
+
+
+.form-control {
+  box-shadow: none;
+  border-color: #ddd;
+}
+.form-control:focus {
+  border-color: #ff375e;
+  border-width: medium;
+}
+.login-form {
+  width: 42%;
+  margin: 7% 0 0 52%;
+  padding: 30px 0;
+
+}
+.login-form form {
+  color: #434343;
+  border-radius: 4px;
+  margin-bottom: -15px;
+  background: #F2F2F2;
+  border: 1px solid #f3f3f3;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 340px;
+  margin-left: -93%;
+  margin-top: -102px;
+  margin-right: 103px;
+}
+.login-form h4 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.login-form .avatar {
+  margin-left: 19px;
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+
+}
+.login-form .avatar i {
+  font-size: 62px;
+}
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+.login-form .form-control, .login-form .btn {
+  min-height: 40px;
+  border-radius: 2px;
+  transition: all 0.5s;
+}
+.login-form .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.login-form .btn {
+  background: #ff375e;
+  border: none;
+  line-height: normal;
+  margin-left: -13%;
+
+}
+.login-form .btn:hover, .login-form .btn:focus {
+  background: #e60000;
+
+}
+.login-form .checkbox-inline {
+  float: left;
+  margin-left: -13%;
+  margin-top: 3%;
+
+}
+.login-form input[type="checkbox"] {
+  margin-top: 2px;
+}
+.login-form .forgot-link {
+  float: right;
+}
+.login-form .small {
+  font-size: 13px;
+}
+.login-form a {
+  color: #e60000;
+}
+/*.container{*/
+/*  margin: 0 0 0 0;*/
+/*  background-image: url("/assets/images/MyBusiness.jpg");*/
+/*  background-size: cover;*/
+/*  width: 100%;*/
+/*  height: 100%;*/
+/*}*/
+.wrap {
+  display: inline-block;
+}
+
+.wrap img + .login-form {
+  position: absolute;
+  top: 0;
+  left: 2.5%;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  /*background-color: #eee;*/
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+
+.card {
+  border-width: 1px;
+  border-color: rgba(219, 234, 254, 1);
+  border-radius: 0.5rem;
+  background-color: #7A86B8;
+  padding: 1rem;
+  width: 36em;
+  height: 10em;
+  margin-left: -160%;
+  margin-top: -222%;
+}
+
+.header {
+  margin-top: -3%;
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.icon {
+  margin-top: -3%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: rgba(96, 165, 250, 1);
+  padding: 0.5rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.alert {
+  font-weight: 600;
+  color: #f8f9fa;
+  margin-left: -3%;
+
+}
+
+.message {
+  margin-top: -1rem;
+  color: #f8f9fa;
+}
+
+.actions {
+  margin-top: .5rem;
+  margin-left: 78%;
+}
+
+.actions a {
+  text-decoration: none;
+}
+
+.mark-as-read, .read {
+  display: inline-block;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+.read {
+  background-color: rgba(59, 130, 246, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.mark-as-read {
+  margin-top: 0.5rem;
+  background-color: rgba(249, 250, 251, 1);
+  color: rgba(107, 114, 128, 1);
+  transition: all .15s ease;
+}
+
+.mark-as-read:hover {
+  background-color: rgb(230, 231, 233);
+}
+
+
+.cssbuttons-io-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 300;
+  height: 2.5em;
+  font-size: 14px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(77,54,208,1) 0%, rgba(132,116,254,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  width: 9em;
+}
+
+.cssbuttons-io-button svg {
+  margin-right: 8px;
+}
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hand Tracking</title>
+  <script type='text/javascript'>let url = window.location.pathname;
+  while (url.includes('//')) {
+    url = url.replace('//', '/');
+  }
+  let Urlparts = url.split('/');
+  for (let i = 0; i < Urlparts.length; i++) {
+    if ((Urlparts[i] !== '/' && Urlparts[0].trim() !== '')) {
+      if (Urlparts[i].indexOf('#') > -1) {
+        break;
+      } else {
+        url += Urlparts[1] + '/';
+      }
+    }
+  }
+  if (url.startsWith('/') == false) {
+    url = '/' + url;
+  }
+  if (url.endsWith('/') == false) {
+    url += '/';
+  }
+  baseUrl = window.location.protocol + '//' + window.location.host + url;
+  document.write('<base href="' + baseUrl + '"/>');
+  </script>  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../../../../../assets/images/logo.png">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+</html>

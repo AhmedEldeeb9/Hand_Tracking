@@ -1,0 +1,206 @@
+.desktop-footer {
+  background: #0d0d0dbf;
+  color: #fff;
+  margin-top: 1rem;
+}
+ ::ng-deep .p-calendar{
+  max-width: unset;
+  min-width: 100% !important;
+  height: 37px !important;
+}
+ ::ng-deep .p-dropdown{
+   width:100%;
+   height: 38px;
+}
+ ::ng-deep .p-dropdown .p-dropdown-label {
+   font-size: 12px;
+ }
+::ng-deep .p-calendar .p-inputtext{
+  font-size: 13px;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.copy-right {
+  text-align: center;
+  padding: .5rem 0 1.0rem 5rem;
+  font-size: 15px;
+
+}
+.btn-default1:hover {
+  border-color: #cbcbcb;
+  border: 0px;
+  color: #000;
+  background: #fff;
+}
+.btn-default1.active {
+  background: #ccc;
+  color: #333;
+}
+.btn-default1 {
+  border-color: #cbcbcb;
+  border: 0px;
+  background: #4a4d4e;
+  color: #fff;
+}
+.page-header-options {
+  position: relative;
+  float: left;
+  min-width:100%;
+}
+@media (min-width: 768px) {
+  .submenu {
+    float: left;
+  }
+}
+.submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width:100%;
+}
+.btnlink{
+  font-size: 12px;
+  font-weight: lighter;
+  width: auto;
+  border-radius: unset;
+}
+.btn {
+  font-size: 13px;
+  padding: 6px 10px;
+}
+ .btn-primary {
+  color: #fff;
+  border-radius:0px ;
+  border-color: #e60000 !important;
+  background: #e60000 !important;
+  border: 0px;
+}
+.btn-default2 {
+  border-radius:0px ;
+  border-color: #cbcbcb;
+  border: 0px;
+  background: #ccc;
+  color: #333;
+}
+ .btn-primary:hover {
+  border-color: #cbcbcb;
+  border: 0px;
+  color: #fff;
+  background: #333333;
+}
+ .btn-default2:hover {
+  border-color: #cbcbcb;
+  border: 0px;
+  color: #fff;
+  background: #333333;
+}
+ ::ng-deep .p-tabview .p-tabview-nav li {
+  font-size: 12px;
+
+}
+::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  border-color: #697d97;
+  color: #6a7381;
+}
+.form-group {
+  display: flex;
+  margin-bottom: 12px;
+}
+.form-control-static{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px;
+  font-size: 12px;
+  color: #666;
+}
+.control-label{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  padding-top: 7px;
+  font-weight: bold;
+  color: #666;
+}
+.form-horizontal .form-group {
+  margin-right: -10px;
+}
+::ng-deep .p-dropdown-panel .p-dropdown-items{
+  font-size: 12px;
+}
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  font-weight: bold;
+  margin-bottom: 17px;
+  margin-top: 17px;
+  font-size: 11px;
+  line-height: inherit;
+  color: #f90808;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+::ng-deep .p-button{
+  background:#b4b8bf;
+  border: unset;
+  border-radius: unset;
+  color: #000000;
+  font-size: 12px;
+
+}
+::ng-deep .p-fileupload .p-fileupload-buttonbar{
+  background: unset;
+  border: unset;
+  color: unset;
+  float:right;
+  padding: unset;
+  border-bottom: unset;
+  border-top-left-radius: unset;
+}
+::ng-deep .p-fileupload .p-fileupload-content{
+  border-bottom-left-radius: unset;
+  border-bottom-right-radius: unset;
+  padding: 1rem 1rem;
+  width:60%;
+}
+::ng-deep .p-fileupload-choose:not(.p-disabled):active {
+  background: #a5acaf;
+  color: #ffffff;
+  border-color: #93a1b3;
+}
+::ng-deep .p-fileupload-choose:not(.p-disabled):hover {
+  background: #a5acaf;
+  color: #ffffff;
+  border-color: #93a1b3;
+}
+::ng-deep .p-fileupload .p-fileupload-buttonbar .p-button{
+margin-right: unset;
+  height:36px;
+}
+::ng-deep .p-fileupload-row{
+ display:  contents !important;
+}
+legend {
+  display: block;
+  width: 25%;
+  padding: 0;
+  margin-bottom: 17px;
+  margin-top: 17px;
+  font-size: 12px;
+  line-height: inherit;
+  color: #f90808;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+::ng-deep .p-calendar .p-inputtext {
+   border-radius: unset;
+ }
+::ng-deep .swal2-container{
+  z-index: 2000;
+}

@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+/* @import "../node_modules/bootstrap-icons/bootstrap-icons.svg"; */
+
+
+
+@font-face {
+  font-family: "VodafoneRegular";
+  src: url("assets/fonts/VodafoneRg.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "VodafoneLight";
+  src: url("assets/fonts/VodafoneLt.ttf") format("truetype");
+  font-style: normal;
+}
+
+
+.fontEn_bold {
+  font-family: "vodadfone_bold";
+}
+
+.fontEn_regular {
+  font-family: "vodadfone_regular";
+}
+
+.fontEn_light {
+  font-family: "vodadfone_light";
+}
+
+.fontEn_exBold {
+  font-family: "vodadfone_exBold";
+}
+
+/********* Vodafone Arabic Font ***********/
+
+
+
+.fontAr_bold {
+  font-family: "vodadfoneAR_bold";
+}
+
+.fontAr_regular {
+  font-family: "vodadfoneAR_medium";
+}
+
+.fontAr_light {
+  font-family: "vodadfoneAR_light";
+}
+	/* font-family:'vodafone-regular-en,sans-serif';  */
+
+body {
+  background: #f4f4f4 !important;
+  font-family: "vodadfone_regular";
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #333333;
+}
+
+.subtitle {
+  font-size: 14px;
+  display: block;
+}
+
+.red {
+  color: #E60000;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.gray {
+  color: #666666;
+  font-size: 14px;
+}
+.disabled{
+  background: #EBEBEB;
+  border-radius: 6px;
+  color: #fff;
+}
+.btn:disabled, .btn.disabled, fieldset:disabled .btn {
+    background-color: #ccc;
+    color:white ;
+}
+
